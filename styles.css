@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(50 50 50 );
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: rgb(200 200 200);
+    
+}
+
+header h2 {
+    color: rgb(255, 255, 255);
+    margin: 60px 0 50px 700px;
+    
+}
+
+
+table, tr {
+    border: 2px solid rgb(63 63 63);       
+    border-collapse: collapse;
+    
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+.tableWrapper {
+    margin-left: 300px;
+    width: 65%;
+    height: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.triangle {
+    display: inline-block;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgb(247, 247, 247);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.tableWrapper th, td {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.tableWrapper .text {
+    color: rgb(85 85 85);
+}
+.tableWrapper .checkbox {
+    width: 500px;
+}
+
+.tableWrapper .elips {
+    width: 20px;
+    text-align: right;
+    font-size: 40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    border-radius: 20px;
+    color: rgb(85 85 85);
+    cursor: pointer;
+}
+
+.tableWrapper .elipses {
+    width: 20px;
+    text-align: right;
+    font-size: 40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    border-radius: 20px;
+    color: rgb(206 206 206); ;
+    cursor: pointer;
+}
+
+.tableWrapper img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-top: 7px;
+}
+
+.tableWrapper .icon-search {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    margin-left: 8px;
+    
+
+}
+
+.tableWrapper .search {
+    display: flex;
+    width: 45px;
+    height: 40px;
+    margin-right: 200px;
+    background-color: rgb(68 68 68);
+    border-radius: 5px;
+}
+
+.tableWrapper .search input {
+    width: 170px;
+    background-color: rgb(68 68 68);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+    outline: none;
+}
+
+input:hover {
+    background-color: rgb(35, 34, 34);
+
+}

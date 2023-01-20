@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300&display=swap" rel="stylesheet">
+    <title>Таблиці, інпути та форми, семантика тегів</title>
+</head>
+<body>
+    <header>
+        <h2>Таблиці, інпути та форми, семантика тегів.</h2>
+    </header>
+    <main>
+        <div class="tableWrapper">
+            <table>
+                <tr>
+                    
+                    <th>Name <div class="triangle"></div></th> 
+                    <th colspan="2">Date</th>
+                </tr>
+                <tr>
+                    <td>File.pdf</td>
+                    <td class="text">3 mins ago</td>
+                    <td class="elips">...</td>
+                </tr>
+                <tr>
+                    <td>File.pdf</td>
+                    <td class="text">Yesterday</td>
+                    <td class="elips">...</td>
+                </tr>
+                <tr>
+                    <td>File.pdf</td>
+                    <td class="text">June 1st, 2019</td>
+                    <td class="elips">...</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="tableWrapper">
+            <table>
+                <tr>
+                    <th><input type="checkbox"> Name <div class="triangle"></div></th>
+                    <th>Date</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td class="checkbox"> <input type="checkbox"> File.pdf</td>
+                    <td class="text">3 mins ago</td>
+                    <td class="elipses">...</td>
+                </tr>
+                <tr>
+                    <td class="checkbox"><input type="checkbox"> File.pdf</td>
+                    <td class="text">Yesterday</td>
+                    <td class="elipses">...</td>
+                </tr>
+                <tr>
+                    <td class="checkbox"> <input type="checkbox"> File.pdf</td>
+                    <td class="text">June 1st, 2019</td>
+                    <td class="elipses">...</td>
+                </tr>
+            </table>
+        </div>
+        <div class="tableWrapper">
+            <table>
+                <tr>
+                    <th>Name <div class="triangle"></div></th>
+                    <th>Date</th>
+                    <th>
+                        <div class="search">
+                            <img src="./image/search.png" class="icon-search" alt="search"> <input type="text" placeholder="Search">
+                        </div>
+                         
+                    </th>
+                </tr>
+                <tr>
+                    <td> <img src="./image/folder.png" alt="document-box"> File.pdf</td>
+                    <td class="text">3 mins ago</td>
+                    <td  class="elipses">...</td>
+                </tr>
+                <tr>
+                    <td><img src="./image/folder.png" alt="document-box"> File.pdf</td>
+                    <td class="text">Yesterday</td>
+                    <td class="elipses">...</td>
+                </tr>
+                <tr>
+                    <td><img src="./image/folder.png" alt="document-box"> File.pdf</td>
+                    <td class="text">June 1st, 2019</td>
+                    <td class="elipses">...</td>
+                </tr>
+            </table>     
+        </div>
+       
+    </main>
+    <footer></footer>
+</body>
+</html>
